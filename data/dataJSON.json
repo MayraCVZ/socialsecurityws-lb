@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "Cliente": 5
+  },
+  "models": {
+    "Cliente": {
+      "1": "{\"nomCliente\":\"Pedro\",\"apellidoPa\":\"Perez\",\"apellidoMa\":\"Perez\",\"fechaRegistro\":\"2023-10-28T19:21:44.090Z\",\"fechaNac\":\"2023-10-28T19:21:44.090Z\",\"lugarNac\":\"Zamora  \",\"estadoCivil\":\"C\",\"nss\":1598763541,\"curp\":\"AVADKD543345S\",\"rfc\":\"SDSDSD6465\",\"estado\":\"Mich\",\"ciudad\":\"Zamora\",\"colonia\":\"Centro\",\"codigoPostal\":59660,\"calle\":\"centro\",\"numero\":10,\"telefonoCasa\":35425954,\"celular\":351144251,\"email\":\"pedro@gmail.com\",\"idCliente\":1}",
+      "3": "{\"nomCliente\":\"Guadalupe\",\"apellidoPa\":\"Hernandez\",\"apellidoMa\":\"Andrado\",\"fechaRegistro\":\"2023-11-02T00:00:00.000Z\",\"fechaNac\":\"1976-03-03T00:00:00.000Z\",\"lugarNac\":\"\",\"estadoCivil\":\"\",\"nss\":26149168668,\"curp\":\"\",\"rfc\":\"\",\"estado\":\"\",\"ciudad\":\"\",\"colonia\":\"\",\"codigoPostal\":\"\",\"calle\":\"\",\"numero\":\"\",\"telefonoCasa\":\"\",\"celular\":\"\",\"email\":\"\",\"idCliente\":3}",
+      "4": "{\"nomCliente\":\"Juana Michel\",\"apellidoPa\":\"Alonso\",\"apellidoMa\":\"Lopez\",\"fechaRegistro\":\"2023-11-03T00:00:00.000Z\",\"fechaNac\":\"2023-11-03T00:00:00.000Z\",\"lugarNac\":\"Michoacan\",\"estadoCivil\":\"\",\"nss\":1234567890,\"curp\":\"cxvcxvxczvert546\",\"rfc\":\"RORR9303265G7\",\"estado\":\"\",\"ciudad\":\"Zamora\",\"colonia\":\"Centro\",\"codigoPostal\":\"324342\",\"calle\":\"centro\",\"numero\":\"10\",\"telefonoCasa\":\"35215897896\",\"celular\":\"\",\"email\":\"\",\"idCliente\":4}"
+    }
+  }
+}
