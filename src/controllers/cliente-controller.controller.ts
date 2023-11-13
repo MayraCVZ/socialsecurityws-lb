@@ -7,13 +7,13 @@ import {
   Where,
 } from '@loopback/repository';
 import {
-  post,
-  param,
+  del,
   get,
   getModelSchemaRef,
+  param,
   patch,
+  post,
   put,
-  del,
   requestBody,
   response,
 } from '@loopback/rest';
@@ -109,6 +109,26 @@ export class ClienteControllerController {
     @param.filter(Cliente, {exclude: 'where'}) filter?: FilterExcludingWhere<Cliente>
   ): Promise<Cliente> {
     return this.clienteRepository.findById(id, filter);
+  }
+
+  @get('/clientes/nss/{nss}')
+  async findByNSS(@param.path.number('nss') nss: number): Promise<Cliente[]> {
+    // Realiza la consulta utilizando el repositorio
+    const clientesConNSS = await this.clienteRepository.find({
+      where: { nss: nss },
+    });
+
+    return clientesConNSS;
+  }
+
+  @get('/clientes/curp/{curp}')
+  async findByCURP(@param.path.string('curp') curp: string): Promise<Cliente[]> {
+    // Realiza la consulta utilizando el repositorio
+    const clientesByCURP = await this.clienteRepository.find({
+      where: { curp: curp },
+    });
+
+    return clientesByCURP;
   }
 
   @patch('/clientes/{id}')
